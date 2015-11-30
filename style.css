@@ -1,0 +1,114 @@
+ #wrap{
+	width:1190px;
+	margin:55px auto 55px;
+}
+
+#main{
+	margin:0 auto;
+	position:relative;
+}
+
+#quotes{
+	position: absolute;
+	left: 735px;
+	bottom: 300px;
+}
+
+
+
+#eric, #ben, #jordan, #josh, #logan, 
+#monahla, #matt, #mike, #owen, #scott, #steve{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	display:none;
+}
+
+#eric{
+	display:block;
+}
+
+#submain{
+	
+}
+
+#social{
+	float:left;
+
+	width: 590px;	
+}
+
+#premier{
+	float:right;
+
+	width: 578px;
+}
+
+#footer{
+	width:1190px;
+	
+}
+
+img{
+
+	width:100%;
+}
+
+
+/*-------------------------*/
+
+@media (max-width: 480px) {
+#wrap{
+	width:100%;
+}
+
+#main{
+	position:relative;
+	width:100%;
+
+}
+
+#quotes{
+display:none;
+}
+
+#social{
+	float:left;
+	display:block;
+	width: 100%;	
+}
+
+#premier{
+	display:block;
+	float:left;
+
+	width: 100%;
+}
+
+img{
+
+	width:100%;
+}
+
+#footer{
+
+	width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
